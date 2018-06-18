@@ -1,0 +1,32 @@
+{
+  "name": "route53-hosted-zone-backup-automation",
+  "version": "1.0.0",
+  "description": "Automating Backups of Your Route 53 Hosted Zone DNS Records",
+  "main": "handler.js",
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint handler.js test && mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/espozbob/route53-hosted-zone-backup-automation.git"
+  },
+  "keywords": [
+    "aws",
+    "route53",
+    "backup",
+    "automation",
+    "serverless"
+  ],
+  "author": "espozbob",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/espozbob/route53-hosted-zone-backup-automation/issues"
+  },
+  "homepage": "https://github.com/espozbob/route53-hosted-zone-backup-automation#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.259.1",
+    "chai": "^4.1.2",
+    "jshint": "^2.9.5",
+    "mocha": "^5.2.0"
+  }
+}
