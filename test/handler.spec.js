@@ -1,6 +1,8 @@
 var chai = require('chai');
 var should = chai.should();
+var assert = chai.assert;
 
+ 
 
 describe('Blobs', function() {
   it('should list ALL blobs on /blobs GET');
